@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <group>
+
+
+        <item
+            android:id="@+id/item1"
+            android:checkable="true"
+            android:enabled="true"
+            android:title="Standard"
+            android:visible="true"
+            app:showAsAction="always" />
+    <item
+        android:id="@+id/item2"
+        android:title="Scientific" />
+    <item
+        android:id="@+id/item3"
+        android:title="Graphing" />
+    <item
+        android:id="@+id/item4"
+        android:title="Programmer"/>
+    <item
+        android:title="devise"
+        android:id="@+id/item5"/>
+        <item
+            android:title="Volume"
+            android:id="@+id/item6"/>
+        <item android:id="@+id/item7"
+            android:title="longueur"/>
+        <item
+            android:title="Poids et Masse"
+            android:id="@+id/item8"/>
+        <item android:id="@+id/item9"
+            android:title="Temperature"/>
+
+
+
+
+
+
+    </group>
+</menu>
